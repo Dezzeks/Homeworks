@@ -1,2 +1,0 @@
-https://metanit.com/web/nodejs/1.1.php - Посібник по Node.js
-https://expressjs.com/en/api.html - express api
