@@ -1,0 +1,1 @@
+[{"userName":"rthrth","userEmail":"awdad@gmail.com","userBirth":"1994-02-23","drinks":["Біле нефільтроване","Самогон"]},{"userName":"дімон","userEmail":"awdad@gmail.com","userBirth":"1994-02-11","drinks":"Самогон"},{"userName":"Ілля","userEmail":"awdad@gmail.com","userBirth":"2002-07-19","drinks":["Біле нефільтроване","Хугарден"]}]

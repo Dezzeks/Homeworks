@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Form</h1><h2>Form</h2><h3>Form</h3><a href='/'>Home</a><a href='/about'>About</a><a href='/form'>Form</a><a href='/users'>Users</a>
+    <h1>Введіть дані</h1>
+    <form action="form" method="post">
+        <label>Ім'я</label><br>
+        <input type="text" name="userName" class="userNamed"/><br><br>
+        <label>Електронну пошту</label><br>
+        <input type="email" name="userEmail"  class="userMail"><br><br>
+        <label>Дату народженння</label><br>
+        <input type="date" name="userBirth" class="userBirths"/><br><br>
+        <label>Список улюблених алкогольних напоїв</label><br>
+        <select multiple name="drinks" size="4">
+        <option value = "Віскі">Віскі</option>
+        <option value = "Біле нефільтроване">Біле нефільтроване</option>
+        <option value = "Самогон">Самогон</option>
+        <option value = "Хугарден">Хугарден</option>
+        <option value = "Коньяк">Коньяк</option>
+        </select>
+        <button class="valid">Спаси і сохрани</button>
+    </form>
+</body>
+</html>
