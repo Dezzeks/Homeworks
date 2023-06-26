@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Створення користувача</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <table border="1">
+    <tr><th>Name</th><th>Email</th><th>Phone</th><th>Password</th></tr>
+    <% users.forEach(element => { %> 
+    <tr>
+        <td><%= element.username %></td>
+        <td><%= element.email %></td>
+        <td><%= element.phoneNumber %></td>
+        <td><%= element.password %></td>
+        <td><%= element.createdAt %></td>
+        <td><a href="/user-edit?id=<%= element._id%>"><button>Edit</button></a></td>
+        <td>
+            <form action="/delete?id=<%= element._id%>" method="post">
+            <button type="submit">Delete</button>
+            </form>
+        </td>
+    </tr>
+    <% }) %>
+    
+
+    </form> 
+</table>
+</body>
+</html>

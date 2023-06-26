@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Створення користувача</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Admin Panel</h1>
+
+    <form action="/new-user" method="post">
+    <input type="text" name="username" placeholder="username" required>
+    <input type="email" name="email"  placeholder="email" required>
+    <input type="number" name="phoneNumber"  placeholder="phoneNumber" required>
+    <input type="text" name="password"  placeholder="password" required>
+    <button type="submit" id="post">Створити</button>
+    </form>
+    <a href="/users-info"><button>Список користувачів</button></a>
+
+</body>
+</html>

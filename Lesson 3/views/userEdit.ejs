@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Редагування користувача</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Редагування</h1>
+    <form action="/user-edit?id=<%= userIds._id %>" method="post">
+    <input type="text" name="username" placeholder="username" value="<%= userIds.username %>" required>
+    <input type="email" name="email"  placeholder="email" value="<%= userIds.email %>" required>
+    <input type="number" name="phoneNumber"  placeholder="phoneNumber" value="<%= userIds.phoneNumber %>" required>
+    <input type="text" name="password"  placeholder="password" value="<%= userIds.password %>" required>
+    <button type="submit">Створити</button>
+    </form>
+    <a href="/users-info"><button type="submit">Користувачі</button></a>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
+</html>
